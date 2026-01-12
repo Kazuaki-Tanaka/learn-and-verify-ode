@@ -1,0 +1,96 @@
+# MATLAB
+*.asv
+*.m~
+*.autosave
+slprj/
+*.slxc
+
+# Results and data files
+results/
+*.mat
+!examples/*.mat
+*_results/
+*_output/
+
+# Figures and plots
+*.fig
+*.png
+*.jpg
+*.eps
+*.pdf
+!docs/images/*.png
+!docs/images/*.pdf
+
+# Logs
+*.log
+*.txt
+!requirements.txt
+!LICENSE.txt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# Compiled MEX files
+*.mex*
+
+# Python (if any utility scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Workspace-specific
+*_workspace_*.mat
+complete_workspace.mat
+layerNum=*/
+gene_layerNum=*/
+
+# Profiling results
+profile_results/
+
+# Documentation build
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Large data files
+*.h5
+*.hdf5
+
+# Experimental branches
+experiments_*/
+sandbox/
+
+# Development tests (not for public release)
+tests/
+
+
+
+
