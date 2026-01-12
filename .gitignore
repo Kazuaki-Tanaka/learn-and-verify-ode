@@ -88,8 +88,6 @@ docs/_templates/
 experiments_*/
 sandbox/
 
-# Development tests (not for public release)
-tests/
 
 
 
